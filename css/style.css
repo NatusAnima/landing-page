@@ -11,6 +11,8 @@
 .dog {
     width: auto;
     height: 100px;
+    border: 5px solid lightblue;
+    border-radius: 15px;
 }
 
 ul {
@@ -20,8 +22,6 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
-    text-decoration:none;
-    display: block;
 }
 
 .header {
@@ -115,7 +115,61 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 4px;
-    display:block;
+    display: block;
     text-decoration: none;
     color: initial;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+    font-size: 12px;
+    color: #585858;
+
+}
+
+.text {
+    max-width: 160px;
+}
+
+.secondary-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.quote-container {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#quote{
+    margin-top: 75px;
+    padding: 0px;
+}
+#source {
+    text-align: right;
+    margin: 15px;
+    font-size: 24px;
+}
+
+.container {
+    margin-bottom: 20px;
 }
