@@ -160,10 +160,11 @@ body {
     font-style: italic;
 }
 
-#quote{
+#quote {
     margin-top: 75px;
     padding: 0px;
 }
+
 #source {
     text-align: right;
     margin: 15px;
@@ -172,4 +173,60 @@ body {
 
 .container {
     margin-bottom: 20px;
+}
+
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882f6;
+    margin: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 150px;
+    border-radius: 15px;
+}
+
+.action{
+    margin: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    
+    border-radius: 15px;
+}
+
+.action-title{
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:#f9faf8;
+    font-weight: 700;
+}
+
+.action-text{
+    font-size: 14px;
+    margin-top: 3px;
+    color:#f9faf8;
+}
+
+.action-button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 7px;
+    font-weight: 800;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #1f2937;
+}
+.footer-text{
+    color: #e5e7eb ;
+    margin: 15px;
 }
